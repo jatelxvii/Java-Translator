@@ -1,0 +1,668 @@
+created 9 Element
+created 2 EBoolean
+created 3 EInteger
+created 4 EString
+b1:$true$:
+(Element)b1 instanceof EBoolean:true:
+(Element)b1 instanceof EInteger:false:
+(Element)b1 instanceof EString:false:
+b2:$false$:
+(Element)b2 instanceof EBoolean:true:
+(Element)b2 instanceof EInteger:false:
+(Element)b2 instanceof EString:false:
+i1:34:
+(Element)i1 instanceof EBoolean:false:
+(Element)i1 instanceof EInteger:true:
+(Element)i1 instanceof EString:false:
+i2:-87:
+(Element)i2 instanceof EBoolean:false:
+(Element)i2 instanceof EInteger:true:
+(Element)i2 instanceof EString:false:
+i3:23:
+(Element)i3 instanceof EBoolean:false:
+(Element)i3 instanceof EInteger:true:
+(Element)i3 instanceof EString:false:
+s1:abc:
+(Element)s1 instanceof EBoolean:false:
+(Element)s1 instanceof EInteger:false:
+(Element)s1 instanceof EString:true:
+s2::
+(Element)s2 instanceof EBoolean:false:
+(Element)s2 instanceof EInteger:false:
+(Element)s2 instanceof EString:true:
+s3:abcdefghijklmnopqrstuvwx:
+(Element)s3 instanceof EBoolean:false:
+(Element)s3 instanceof EInteger:false:
+(Element)s3 instanceof EString:true:
+s4:abcdefghijklmnopqrstuvwx:
+(Element)s4 instanceof EBoolean:false:
+(Element)s4 instanceof EInteger:false:
+(Element)s4 instanceof EString:true:
+b1:$true$:
+(Element)b1 instanceof EBoolean:true:
+(Element)b1 instanceof EInteger:false:
+(Element)b1 instanceof EString:false:
+b2:$false$:
+(Element)b2 instanceof EBoolean:true:
+(Element)b2 instanceof EInteger:false:
+(Element)b2 instanceof EString:false:
+i1:34:
+(Element)i1 instanceof EBoolean:false:
+(Element)i1 instanceof EInteger:true:
+(Element)i1 instanceof EString:false:
+i2:-87:
+(Element)i2 instanceof EBoolean:false:
+(Element)i2 instanceof EInteger:true:
+(Element)i2 instanceof EString:false:
+i3:23:
+(Element)i3 instanceof EBoolean:false:
+(Element)i3 instanceof EInteger:true:
+(Element)i3 instanceof EString:false:
+s1:abc:
+(Element)s1 instanceof EBoolean:false:
+(Element)s1 instanceof EInteger:false:
+(Element)s1 instanceof EString:true:
+s2::
+(Element)s2 instanceof EBoolean:false:
+(Element)s2 instanceof EInteger:false:
+(Element)s2 instanceof EString:true:
+s3:abcdefghijklmnopqrstuvwx:
+(Element)s3 instanceof EBoolean:false:
+(Element)s3 instanceof EInteger:false:
+(Element)s3 instanceof EString:true:
+s4:abcdefghijklmnopqrstuvwx:
+(Element)s4 instanceof EBoolean:false:
+(Element)s4 instanceof EInteger:false:
+(Element)s4 instanceof EString:true:
+x:abc:
+(Element)x instanceof EBoolean:false:
+(Element)x instanceof EInteger:false:
+(Element)x instanceof EString:true:
+x:-87:
+(Element)x instanceof EBoolean:false:
+(Element)x instanceof EInteger:true:
+(Element)x instanceof EString:false:
+Go
+g:Go:
+(Element)g instanceof EBoolean:false:
+(Element)g instanceof EInteger:false:
+(Element)g instanceof EString:true:
+Go figure
+g:Go:
+(Element)g instanceof EBoolean:false:
+(Element)g instanceof EInteger:false:
+(Element)g instanceof EString:true:
+b1.hash():1:
+b2.hash():0:
+i1.hash():0:
+i2.hash():2:
+i3.hash():6:
+s1.hash():3:
+s2.hash():0:
+s3.hash():7:
+s4.hash():7:
+x.hash():3:
+x.hash():2:
+new EInteger(84).hash():16:
+Plus.plus(i3, i3):46:
+(Element)Plus.plus(i3, i3) instanceof EBoolean:false:
+(Element)Plus.plus(i3, i3) instanceof EInteger:true:
+(Element)Plus.plus(i3, i3) instanceof EString:false:
+Plus.plus(i1, i2):-53:
+(Element)Plus.plus(i1, i2) instanceof EBoolean:false:
+(Element)Plus.plus(i1, i2) instanceof EInteger:true:
+(Element)Plus.plus(i1, i2) instanceof EString:false:
+Plus.plus(b1, b2):$true$:
+(Element)Plus.plus(b1, b2) instanceof EBoolean:true:
+(Element)Plus.plus(b1, b2) instanceof EInteger:false:
+(Element)Plus.plus(b1, b2) instanceof EString:false:
+Plus.plus(s1, s1):abcabc:
+(Element)Plus.plus(s1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, s1) instanceof EInteger:false:
+(Element)Plus.plus(s1, s1) instanceof EString:true:
+Plus.plus(s3, s1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s1) instanceof EInteger:false:
+(Element)Plus.plus(s3, s1) instanceof EString:true:
+Plus.plus(s3, s4):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s4) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s4) instanceof EInteger:false:
+(Element)Plus.plus(s3, s4) instanceof EString:true:
+Plus.plus(i1, i2):-53:
+(Element)Plus.plus(i1, i2) instanceof EBoolean:false:
+(Element)Plus.plus(i1, i2) instanceof EInteger:true:
+(Element)Plus.plus(i1, i2) instanceof EString:false:
+Plus.plus(b1, b2):$true$:
+(Element)Plus.plus(b1, b2) instanceof EBoolean:true:
+(Element)Plus.plus(b1, b2) instanceof EInteger:false:
+(Element)Plus.plus(b1, b2) instanceof EString:false:
+Plus.plus(s1, s1):abcabc:
+(Element)Plus.plus(s1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, s1) instanceof EInteger:false:
+(Element)Plus.plus(s1, s1) instanceof EString:true:
+Plus.plus(s3, s1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s1) instanceof EInteger:false:
+(Element)Plus.plus(s3, s1) instanceof EString:true:
+Plus.plus(s3, s4):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s4) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s4) instanceof EInteger:false:
+(Element)Plus.plus(s3, s4) instanceof EString:true:
+Plus.plus(b1, s1):$true$abc:
+(Element)Plus.plus(b1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(b1, s1) instanceof EInteger:false:
+(Element)Plus.plus(b1, s1) instanceof EString:true:
+Plus.plus(b1, s2):$true$:
+(Element)Plus.plus(b1, s2) instanceof EBoolean:false:
+(Element)Plus.plus(b1, s2) instanceof EInteger:false:
+(Element)Plus.plus(b1, s2) instanceof EString:true:
+Plus.plus(b1, s3):$true$abcdefghijklmnopqr:
+(Element)Plus.plus(b1, s3) instanceof EBoolean:false:
+(Element)Plus.plus(b1, s3) instanceof EInteger:false:
+(Element)Plus.plus(b1, s3) instanceof EString:true:
+Plus.plus(s1, b1):abc$true$:
+(Element)Plus.plus(s1, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, b1) instanceof EInteger:false:
+(Element)Plus.plus(s1, b1) instanceof EString:true:
+Plus.plus(s2, b1):$true$:
+(Element)Plus.plus(s2, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s2, b1) instanceof EInteger:false:
+(Element)Plus.plus(s2, b1) instanceof EString:true:
+Plus.plus(s3, b1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s3, b1) instanceof EInteger:false:
+(Element)Plus.plus(s3, b1) instanceof EString:true:
+Plus.plus(i1, b1):35:
+(Element)Plus.plus(i1, b1) instanceof EBoolean:false:
+(Element)Plus.plus(i1, b1) instanceof EInteger:true:
+(Element)Plus.plus(i1, b1) instanceof EString:false:
+Plus.plus(i1, b2):34:
+(Element)Plus.plus(i1, b2) instanceof EBoolean:false:
+(Element)Plus.plus(i1, b2) instanceof EInteger:true:
+(Element)Plus.plus(i1, b2) instanceof EString:false:
+Plus.plus(i1, s1):34abc:
+(Element)Plus.plus(i1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(i1, s1) instanceof EInteger:false:
+(Element)Plus.plus(i1, s1) instanceof EString:true:
+Plus.plus(b1, i1):35:
+(Element)Plus.plus(b1, i1) instanceof EBoolean:false:
+(Element)Plus.plus(b1, i1) instanceof EInteger:true:
+(Element)Plus.plus(b1, i1) instanceof EString:false:
+Plus.plus(b2, i1):34:
+(Element)Plus.plus(b2, i1) instanceof EBoolean:false:
+(Element)Plus.plus(b2, i1) instanceof EInteger:true:
+(Element)Plus.plus(b2, i1) instanceof EString:false:
+Plus.plus(s1, i1):abc34:
+(Element)Plus.plus(s1, i1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, i1) instanceof EInteger:false:
+(Element)Plus.plus(s1, i1) instanceof EString:true:
+Plus.plus(s1, b1):abc$true$:
+(Element)Plus.plus(s1, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, b1) instanceof EInteger:false:
+(Element)Plus.plus(s1, b1) instanceof EString:true:
+Plus.plus(b2, s1):$false$abc:
+(Element)Plus.plus(b2, s1) instanceof EBoolean:false:
+(Element)Plus.plus(b2, s1) instanceof EInteger:false:
+(Element)Plus.plus(b2, s1) instanceof EString:true:
+Plus.plus(s4, b1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s4, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s4, b1) instanceof EInteger:false:
+(Element)Plus.plus(s4, b1) instanceof EString:true:
+Plus.plus(b2, s4):$false$abcdefghijklmnopq:
+(Element)Plus.plus(b2, s4) instanceof EBoolean:false:
+(Element)Plus.plus(b2, s4) instanceof EInteger:false:
+(Element)Plus.plus(b2, s4) instanceof EString:true:
+Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1):35abc34:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1) instanceof EBoolean:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1) instanceof EInteger:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1) instanceof EString:true:
+Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1):3534:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1) instanceof EBoolean:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1) instanceof EInteger:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1) instanceof EString:true:
+s5:hi:
+(Element)s5 instanceof EBoolean:false:
+(Element)s5 instanceof EInteger:false:
+(Element)s5 instanceof EString:true:
+s6:ok:
+(Element)s6 instanceof EBoolean:false:
+(Element)s6 instanceof EInteger:false:
+(Element)s6 instanceof EString:true:
+s5:ok:
+(Element)s5 instanceof EBoolean:false:
+(Element)s5 instanceof EInteger:false:
+(Element)s5 instanceof EString:true:
+s6:ok:
+(Element)s6 instanceof EBoolean:false:
+(Element)s6 instanceof EInteger:false:
+(Element)s6 instanceof EString:true:
+s5:okok:
+(Element)s5 instanceof EBoolean:false:
+(Element)s5 instanceof EInteger:false:
+(Element)s5 instanceof EString:true:
+s6:ok:
+(Element)s6 instanceof EBoolean:false:
+(Element)s6 instanceof EInteger:false:
+(Element)s6 instanceof EString:true:
+t:$false$:
+(Element)t instanceof EBoolean:true:
+(Element)t instanceof EInteger:false:
+(Element)t instanceof EString:false:
+t:-53:
+(Element)t instanceof EBoolean:false:
+(Element)t instanceof EInteger:true:
+(Element)t instanceof EString:false:
+t:okokok:
+(Element)t instanceof EBoolean:false:
+(Element)t instanceof EInteger:false:
+(Element)t instanceof EString:true:
+l1.capacity():2:
+l1.size():0:
+l1
+++++
+----
+l1.capacity():2:
+l1.size():1:
+l1
+++++
+34
+----
+l1.capacity():2:
+l1.size():2:
+l1
+++++
+34
+$false$
+----
+l2.capacity():2:
+l2.size():0:
+l2
+++++
+----
+l2.capacity():2:
+l2.size():1:
+l2
+++++
+abcdefghijklmnopqrstuvwx
+----
+l2.capacity():2:
+l2.size():2:
+l2
+++++
+abcdefghijklmnopqrstuvwx
+abc
+----
+l1.capacity():4:
+l1.size():3:
+l1
+++++
+34
+$false$
+$true$
+----
+l1.capacity():4:
+l1.size():4:
+l1
+++++
+34
+$false$
+$true$
+101
+----
+l1.capacity():8:
+l1.size():5:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+----
+l1.capacity():8:
+l1.size():6:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+----
+l1.capacity():8:
+l1.size():7:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+----
+l1.capacity():8:
+l1.size():8:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+----
+l1.capacity():16:
+l1.size():9:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+----
+l1.capacity():16:
+l1.size():10:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+----
+l1.capacity():16:
+l1.size():11:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+----
+l1.capacity():16:
+l1.size():12:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+----
+l1.capacity():16:
+l1.size():13:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+----
+l1.capacity():16:
+l1.size():14:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+----
+l1.capacity():16:
+l1.size():15:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+----
+l1.capacity():16:
+l1.size():16:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+----
+l1.capacity():32:
+l1.size():17:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+----
+l1.capacity():32:
+l1.size():18:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+----
+l1.capacity():32:
+l1.size():19:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+----
+l1.capacity():32:
+l1.size():20:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+----
+l1.capacity():32:
+l1.size():21:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+----
+l1.capacity():32:
+l1.size():22:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+----
+l3.capacity():2:
+l3.size():0:
+l3
+++++
+----
+l3.capacity():16:
+l3.size():10:
+l3
+++++
+$true$
+$true$
+$true$
+$true$
+$false$
+$true$
+$true$
+$true$
+$true$
+$true$
+----
+created 168 Element
+created 11 EBoolean
+created 60 EInteger
+created 97 EString

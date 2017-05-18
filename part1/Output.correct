@@ -1,0 +1,102 @@
+b1:$true$:
+(Element)b1 instanceof EBoolean:true:
+(Element)b1 instanceof EInteger:false:
+(Element)b1 instanceof EString:false:
+b2:$false$:
+(Element)b2 instanceof EBoolean:true:
+(Element)b2 instanceof EInteger:false:
+(Element)b2 instanceof EString:false:
+i1:34:
+(Element)i1 instanceof EBoolean:false:
+(Element)i1 instanceof EInteger:true:
+(Element)i1 instanceof EString:false:
+i2:-87:
+(Element)i2 instanceof EBoolean:false:
+(Element)i2 instanceof EInteger:true:
+(Element)i2 instanceof EString:false:
+i3:23:
+(Element)i3 instanceof EBoolean:false:
+(Element)i3 instanceof EInteger:true:
+(Element)i3 instanceof EString:false:
+s1:abc:
+(Element)s1 instanceof EBoolean:false:
+(Element)s1 instanceof EInteger:false:
+(Element)s1 instanceof EString:true:
+s2::
+(Element)s2 instanceof EBoolean:false:
+(Element)s2 instanceof EInteger:false:
+(Element)s2 instanceof EString:true:
+s3:abcdefghijklmnopqrstuvwx:
+(Element)s3 instanceof EBoolean:false:
+(Element)s3 instanceof EInteger:false:
+(Element)s3 instanceof EString:true:
+s4:abcdefghijklmnopqrstuvwx:
+(Element)s4 instanceof EBoolean:false:
+(Element)s4 instanceof EInteger:false:
+(Element)s4 instanceof EString:true:
+b1:$true$:
+(Element)b1 instanceof EBoolean:true:
+(Element)b1 instanceof EInteger:false:
+(Element)b1 instanceof EString:false:
+b2:$false$:
+(Element)b2 instanceof EBoolean:true:
+(Element)b2 instanceof EInteger:false:
+(Element)b2 instanceof EString:false:
+i1:34:
+(Element)i1 instanceof EBoolean:false:
+(Element)i1 instanceof EInteger:true:
+(Element)i1 instanceof EString:false:
+i2:-87:
+(Element)i2 instanceof EBoolean:false:
+(Element)i2 instanceof EInteger:true:
+(Element)i2 instanceof EString:false:
+i3:23:
+(Element)i3 instanceof EBoolean:false:
+(Element)i3 instanceof EInteger:true:
+(Element)i3 instanceof EString:false:
+s1:abc:
+(Element)s1 instanceof EBoolean:false:
+(Element)s1 instanceof EInteger:false:
+(Element)s1 instanceof EString:true:
+s2::
+(Element)s2 instanceof EBoolean:false:
+(Element)s2 instanceof EInteger:false:
+(Element)s2 instanceof EString:true:
+s3:abcdefghijklmnopqrstuvwx:
+(Element)s3 instanceof EBoolean:false:
+(Element)s3 instanceof EInteger:false:
+(Element)s3 instanceof EString:true:
+s4:abcdefghijklmnopqrstuvwx:
+(Element)s4 instanceof EBoolean:false:
+(Element)s4 instanceof EInteger:false:
+(Element)s4 instanceof EString:true:
+x:abc:
+(Element)x instanceof EBoolean:false:
+(Element)x instanceof EInteger:false:
+(Element)x instanceof EString:true:
+x:-87:
+(Element)x instanceof EBoolean:false:
+(Element)x instanceof EInteger:true:
+(Element)x instanceof EString:false:
+Go
+g:Go:
+(Element)g instanceof EBoolean:false:
+(Element)g instanceof EInteger:false:
+(Element)g instanceof EString:true:
+Go figure
+g:Go:
+(Element)g instanceof EBoolean:false:
+(Element)g instanceof EInteger:false:
+(Element)g instanceof EString:true:
+b1.hash():1:
+b2.hash():0:
+i1.hash():0:
+i2.hash():2:
+i3.hash():6:
+s1.hash():3:
+s2.hash():0:
+s3.hash():7:
+s4.hash():7:
+x.hash():3:
+x.hash():2:
+new EInteger(84).hash():16:

@@ -1,0 +1,2001 @@
+created 9 Element
+created 2 EBoolean
+created 3 EInteger
+created 4 EString
+b1:$true$:
+(Element)b1 instanceof EBoolean:true:
+(Element)b1 instanceof EInteger:false:
+(Element)b1 instanceof EString:false:
+b2:$false$:
+(Element)b2 instanceof EBoolean:true:
+(Element)b2 instanceof EInteger:false:
+(Element)b2 instanceof EString:false:
+i1:34:
+(Element)i1 instanceof EBoolean:false:
+(Element)i1 instanceof EInteger:true:
+(Element)i1 instanceof EString:false:
+i2:-87:
+(Element)i2 instanceof EBoolean:false:
+(Element)i2 instanceof EInteger:true:
+(Element)i2 instanceof EString:false:
+i3:23:
+(Element)i3 instanceof EBoolean:false:
+(Element)i3 instanceof EInteger:true:
+(Element)i3 instanceof EString:false:
+s1:abc:
+(Element)s1 instanceof EBoolean:false:
+(Element)s1 instanceof EInteger:false:
+(Element)s1 instanceof EString:true:
+s2::
+(Element)s2 instanceof EBoolean:false:
+(Element)s2 instanceof EInteger:false:
+(Element)s2 instanceof EString:true:
+s3:abcdefghijklmnopqrstuvwx:
+(Element)s3 instanceof EBoolean:false:
+(Element)s3 instanceof EInteger:false:
+(Element)s3 instanceof EString:true:
+s4:abcdefghijklmnopqrstuvwx:
+(Element)s4 instanceof EBoolean:false:
+(Element)s4 instanceof EInteger:false:
+(Element)s4 instanceof EString:true:
+b1:$true$:
+(Element)b1 instanceof EBoolean:true:
+(Element)b1 instanceof EInteger:false:
+(Element)b1 instanceof EString:false:
+b2:$false$:
+(Element)b2 instanceof EBoolean:true:
+(Element)b2 instanceof EInteger:false:
+(Element)b2 instanceof EString:false:
+i1:34:
+(Element)i1 instanceof EBoolean:false:
+(Element)i1 instanceof EInteger:true:
+(Element)i1 instanceof EString:false:
+i2:-87:
+(Element)i2 instanceof EBoolean:false:
+(Element)i2 instanceof EInteger:true:
+(Element)i2 instanceof EString:false:
+i3:23:
+(Element)i3 instanceof EBoolean:false:
+(Element)i3 instanceof EInteger:true:
+(Element)i3 instanceof EString:false:
+s1:abc:
+(Element)s1 instanceof EBoolean:false:
+(Element)s1 instanceof EInteger:false:
+(Element)s1 instanceof EString:true:
+s2::
+(Element)s2 instanceof EBoolean:false:
+(Element)s2 instanceof EInteger:false:
+(Element)s2 instanceof EString:true:
+s3:abcdefghijklmnopqrstuvwx:
+(Element)s3 instanceof EBoolean:false:
+(Element)s3 instanceof EInteger:false:
+(Element)s3 instanceof EString:true:
+s4:abcdefghijklmnopqrstuvwx:
+(Element)s4 instanceof EBoolean:false:
+(Element)s4 instanceof EInteger:false:
+(Element)s4 instanceof EString:true:
+x:abc:
+(Element)x instanceof EBoolean:false:
+(Element)x instanceof EInteger:false:
+(Element)x instanceof EString:true:
+x:-87:
+(Element)x instanceof EBoolean:false:
+(Element)x instanceof EInteger:true:
+(Element)x instanceof EString:false:
+Go
+g:Go:
+(Element)g instanceof EBoolean:false:
+(Element)g instanceof EInteger:false:
+(Element)g instanceof EString:true:
+Go figure
+g:Go:
+(Element)g instanceof EBoolean:false:
+(Element)g instanceof EInteger:false:
+(Element)g instanceof EString:true:
+b1.hash():1:
+b2.hash():0:
+i1.hash():0:
+i2.hash():2:
+i3.hash():6:
+s1.hash():3:
+s2.hash():0:
+s3.hash():7:
+s4.hash():7:
+x.hash():3:
+x.hash():2:
+new EInteger(84).hash():16:
+Plus.plus(i3, i3):46:
+(Element)Plus.plus(i3, i3) instanceof EBoolean:false:
+(Element)Plus.plus(i3, i3) instanceof EInteger:true:
+(Element)Plus.plus(i3, i3) instanceof EString:false:
+Plus.plus(i1, i2):-53:
+(Element)Plus.plus(i1, i2) instanceof EBoolean:false:
+(Element)Plus.plus(i1, i2) instanceof EInteger:true:
+(Element)Plus.plus(i1, i2) instanceof EString:false:
+Plus.plus(b1, b2):$true$:
+(Element)Plus.plus(b1, b2) instanceof EBoolean:true:
+(Element)Plus.plus(b1, b2) instanceof EInteger:false:
+(Element)Plus.plus(b1, b2) instanceof EString:false:
+Plus.plus(s1, s1):abcabc:
+(Element)Plus.plus(s1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, s1) instanceof EInteger:false:
+(Element)Plus.plus(s1, s1) instanceof EString:true:
+Plus.plus(s3, s1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s1) instanceof EInteger:false:
+(Element)Plus.plus(s3, s1) instanceof EString:true:
+Plus.plus(s3, s4):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s4) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s4) instanceof EInteger:false:
+(Element)Plus.plus(s3, s4) instanceof EString:true:
+Plus.plus(i1, i2):-53:
+(Element)Plus.plus(i1, i2) instanceof EBoolean:false:
+(Element)Plus.plus(i1, i2) instanceof EInteger:true:
+(Element)Plus.plus(i1, i2) instanceof EString:false:
+Plus.plus(b1, b2):$true$:
+(Element)Plus.plus(b1, b2) instanceof EBoolean:true:
+(Element)Plus.plus(b1, b2) instanceof EInteger:false:
+(Element)Plus.plus(b1, b2) instanceof EString:false:
+Plus.plus(s1, s1):abcabc:
+(Element)Plus.plus(s1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, s1) instanceof EInteger:false:
+(Element)Plus.plus(s1, s1) instanceof EString:true:
+Plus.plus(s3, s1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s1) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s1) instanceof EInteger:false:
+(Element)Plus.plus(s3, s1) instanceof EString:true:
+Plus.plus(s3, s4):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, s4) instanceof EBoolean:false:
+(Element)Plus.plus(s3, s4) instanceof EInteger:false:
+(Element)Plus.plus(s3, s4) instanceof EString:true:
+Plus.plus(b1, s1):$true$abc:
+(Element)Plus.plus(b1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(b1, s1) instanceof EInteger:false:
+(Element)Plus.plus(b1, s1) instanceof EString:true:
+Plus.plus(b1, s2):$true$:
+(Element)Plus.plus(b1, s2) instanceof EBoolean:false:
+(Element)Plus.plus(b1, s2) instanceof EInteger:false:
+(Element)Plus.plus(b1, s2) instanceof EString:true:
+Plus.plus(b1, s3):$true$abcdefghijklmnopqr:
+(Element)Plus.plus(b1, s3) instanceof EBoolean:false:
+(Element)Plus.plus(b1, s3) instanceof EInteger:false:
+(Element)Plus.plus(b1, s3) instanceof EString:true:
+Plus.plus(s1, b1):abc$true$:
+(Element)Plus.plus(s1, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, b1) instanceof EInteger:false:
+(Element)Plus.plus(s1, b1) instanceof EString:true:
+Plus.plus(s2, b1):$true$:
+(Element)Plus.plus(s2, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s2, b1) instanceof EInteger:false:
+(Element)Plus.plus(s2, b1) instanceof EString:true:
+Plus.plus(s3, b1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s3, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s3, b1) instanceof EInteger:false:
+(Element)Plus.plus(s3, b1) instanceof EString:true:
+Plus.plus(i1, b1):35:
+(Element)Plus.plus(i1, b1) instanceof EBoolean:false:
+(Element)Plus.plus(i1, b1) instanceof EInteger:true:
+(Element)Plus.plus(i1, b1) instanceof EString:false:
+Plus.plus(i1, b2):34:
+(Element)Plus.plus(i1, b2) instanceof EBoolean:false:
+(Element)Plus.plus(i1, b2) instanceof EInteger:true:
+(Element)Plus.plus(i1, b2) instanceof EString:false:
+Plus.plus(i1, s1):34abc:
+(Element)Plus.plus(i1, s1) instanceof EBoolean:false:
+(Element)Plus.plus(i1, s1) instanceof EInteger:false:
+(Element)Plus.plus(i1, s1) instanceof EString:true:
+Plus.plus(b1, i1):35:
+(Element)Plus.plus(b1, i1) instanceof EBoolean:false:
+(Element)Plus.plus(b1, i1) instanceof EInteger:true:
+(Element)Plus.plus(b1, i1) instanceof EString:false:
+Plus.plus(b2, i1):34:
+(Element)Plus.plus(b2, i1) instanceof EBoolean:false:
+(Element)Plus.plus(b2, i1) instanceof EInteger:true:
+(Element)Plus.plus(b2, i1) instanceof EString:false:
+Plus.plus(s1, i1):abc34:
+(Element)Plus.plus(s1, i1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, i1) instanceof EInteger:false:
+(Element)Plus.plus(s1, i1) instanceof EString:true:
+Plus.plus(s1, b1):abc$true$:
+(Element)Plus.plus(s1, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s1, b1) instanceof EInteger:false:
+(Element)Plus.plus(s1, b1) instanceof EString:true:
+Plus.plus(b2, s1):$false$abc:
+(Element)Plus.plus(b2, s1) instanceof EBoolean:false:
+(Element)Plus.plus(b2, s1) instanceof EInteger:false:
+(Element)Plus.plus(b2, s1) instanceof EString:true:
+Plus.plus(s4, b1):abcdefghijklmnopqrstuvwx:
+(Element)Plus.plus(s4, b1) instanceof EBoolean:false:
+(Element)Plus.plus(s4, b1) instanceof EInteger:false:
+(Element)Plus.plus(s4, b1) instanceof EString:true:
+Plus.plus(b2, s4):$false$abcdefghijklmnopq:
+(Element)Plus.plus(b2, s4) instanceof EBoolean:false:
+(Element)Plus.plus(b2, s4) instanceof EInteger:false:
+(Element)Plus.plus(b2, s4) instanceof EString:true:
+Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1):35abc34:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1) instanceof EBoolean:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1) instanceof EInteger:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s1), i1) instanceof EString:true:
+Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1):3534:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1) instanceof EBoolean:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1) instanceof EInteger:false:
+(Element)Plus.plus( Plus.plus( Plus.plus(b1, i1), s2), i1) instanceof EString:true:
+s5:hi:
+(Element)s5 instanceof EBoolean:false:
+(Element)s5 instanceof EInteger:false:
+(Element)s5 instanceof EString:true:
+s6:ok:
+(Element)s6 instanceof EBoolean:false:
+(Element)s6 instanceof EInteger:false:
+(Element)s6 instanceof EString:true:
+s5:ok:
+(Element)s5 instanceof EBoolean:false:
+(Element)s5 instanceof EInteger:false:
+(Element)s5 instanceof EString:true:
+s6:ok:
+(Element)s6 instanceof EBoolean:false:
+(Element)s6 instanceof EInteger:false:
+(Element)s6 instanceof EString:true:
+s5:okok:
+(Element)s5 instanceof EBoolean:false:
+(Element)s5 instanceof EInteger:false:
+(Element)s5 instanceof EString:true:
+s6:ok:
+(Element)s6 instanceof EBoolean:false:
+(Element)s6 instanceof EInteger:false:
+(Element)s6 instanceof EString:true:
+t:$false$:
+(Element)t instanceof EBoolean:true:
+(Element)t instanceof EInteger:false:
+(Element)t instanceof EString:false:
+t:-53:
+(Element)t instanceof EBoolean:false:
+(Element)t instanceof EInteger:true:
+(Element)t instanceof EString:false:
+t:okokok:
+(Element)t instanceof EBoolean:false:
+(Element)t instanceof EInteger:false:
+(Element)t instanceof EString:true:
+l1.capacity():2:
+l1.size():0:
+l1
+++++
+----
+l1.capacity():2:
+l1.size():1:
+l1
+++++
+34
+----
+l1.capacity():2:
+l1.size():2:
+l1
+++++
+34
+$false$
+----
+l2.capacity():2:
+l2.size():0:
+l2
+++++
+----
+l2.capacity():2:
+l2.size():1:
+l2
+++++
+abcdefghijklmnopqrstuvwx
+----
+l2.capacity():2:
+l2.size():2:
+l2
+++++
+abcdefghijklmnopqrstuvwx
+abc
+----
+l1.capacity():4:
+l1.size():3:
+l1
+++++
+34
+$false$
+$true$
+----
+l1.capacity():4:
+l1.size():4:
+l1
+++++
+34
+$false$
+$true$
+101
+----
+l1.capacity():8:
+l1.size():5:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+----
+l1.capacity():8:
+l1.size():6:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+----
+l1.capacity():8:
+l1.size():7:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+----
+l1.capacity():8:
+l1.size():8:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+----
+l1.capacity():16:
+l1.size():9:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+----
+l1.capacity():16:
+l1.size():10:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+----
+l1.capacity():16:
+l1.size():11:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+----
+l1.capacity():16:
+l1.size():12:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+----
+l1.capacity():16:
+l1.size():13:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+----
+l1.capacity():16:
+l1.size():14:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+----
+l1.capacity():16:
+l1.size():15:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+----
+l1.capacity():16:
+l1.size():16:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+----
+l1.capacity():32:
+l1.size():17:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+----
+l1.capacity():32:
+l1.size():18:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+----
+l1.capacity():32:
+l1.size():19:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+----
+l1.capacity():32:
+l1.size():20:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+----
+l1.capacity():32:
+l1.size():21:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+----
+l1.capacity():32:
+l1.size():22:
+l1
+++++
+34
+$false$
+$true$
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+----
+l3.capacity():2:
+l3.size():0:
+l3
+++++
+----
+l3.capacity():16:
+l3.size():10:
+l3
+++++
+$true$
+$true$
+$true$
+$true$
+$false$
+$true$
+$true$
+$true$
+$true$
+$true$
+----
+myprint(l1)
+34!$false$!$true$!101!102!103!104!105!106!107!108!109!110!111!112!113!114!115!116!117!118!119!
+myprint(l2)
+abcdefghijklmnopqrstuvwx!abc!
+myprint(l3)
+$true$!$true$!$true$!$true$!$false$!$true$!$true$!$true$!$true$!$true$!
+cross(l2, l2)
+    abcdefghijklmnopqrstuvwx abcdefghijklmnopqrstuvwx
+    abcdefghijklmnopqrstuvwx abc
+    abc abcdefghijklmnopqrstuvwx
+    abc abc
+cross(l1, l2)
+    34 abcdefghijklmnopqrstuvwx
+    34 abc
+    $false$ abcdefghijklmnopqrstuvwx
+    $false$ abc
+    $true$ abcdefghijklmnopqrstuvwx
+    $true$ abc
+    101 abcdefghijklmnopqrstuvwx
+    101 abc
+    102 abcdefghijklmnopqrstuvwx
+    102 abc
+    103 abcdefghijklmnopqrstuvwx
+    103 abc
+    104 abcdefghijklmnopqrstuvwx
+    104 abc
+    105 abcdefghijklmnopqrstuvwx
+    105 abc
+    106 abcdefghijklmnopqrstuvwx
+    106 abc
+    107 abcdefghijklmnopqrstuvwx
+    107 abc
+    108 abcdefghijklmnopqrstuvwx
+    108 abc
+    109 abcdefghijklmnopqrstuvwx
+    109 abc
+    110 abcdefghijklmnopqrstuvwx
+    110 abc
+    111 abcdefghijklmnopqrstuvwx
+    111 abc
+    112 abcdefghijklmnopqrstuvwx
+    112 abc
+    113 abcdefghijklmnopqrstuvwx
+    113 abc
+    114 abcdefghijklmnopqrstuvwx
+    114 abc
+    115 abcdefghijklmnopqrstuvwx
+    115 abc
+    116 abcdefghijklmnopqrstuvwx
+    116 abc
+    117 abcdefghijklmnopqrstuvwx
+    117 abc
+    118 abcdefghijklmnopqrstuvwx
+    118 abc
+    119 abcdefghijklmnopqrstuvwx
+    119 abc
+cross(l2, l1)
+    abcdefghijklmnopqrstuvwx 34
+    abcdefghijklmnopqrstuvwx $false$
+    abcdefghijklmnopqrstuvwx $true$
+    abcdefghijklmnopqrstuvwx 101
+    abcdefghijklmnopqrstuvwx 102
+    abcdefghijklmnopqrstuvwx 103
+    abcdefghijklmnopqrstuvwx 104
+    abcdefghijklmnopqrstuvwx 105
+    abcdefghijklmnopqrstuvwx 106
+    abcdefghijklmnopqrstuvwx 107
+    abcdefghijklmnopqrstuvwx 108
+    abcdefghijklmnopqrstuvwx 109
+    abcdefghijklmnopqrstuvwx 110
+    abcdefghijklmnopqrstuvwx 111
+    abcdefghijklmnopqrstuvwx 112
+    abcdefghijklmnopqrstuvwx 113
+    abcdefghijklmnopqrstuvwx 114
+    abcdefghijklmnopqrstuvwx 115
+    abcdefghijklmnopqrstuvwx 116
+    abcdefghijklmnopqrstuvwx 117
+    abcdefghijklmnopqrstuvwx 118
+    abcdefghijklmnopqrstuvwx 119
+    abc 34
+    abc $false$
+    abc $true$
+    abc 101
+    abc 102
+    abc 103
+    abc 104
+    abc 105
+    abc 106
+    abc 107
+    abc 108
+    abc 109
+    abc 110
+    abc 111
+    abc 112
+    abc 113
+    abc 114
+    abc 115
+    abc 116
+    abc 117
+    abc 118
+    abc 119
+cross(l1, l3)
+    34 $true$
+    34 $true$
+    34 $true$
+    34 $true$
+    34 $false$
+    34 $true$
+    34 $true$
+    34 $true$
+    34 $true$
+    34 $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $false$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    101 $true$
+    101 $true$
+    101 $true$
+    101 $true$
+    101 $false$
+    101 $true$
+    101 $true$
+    101 $true$
+    101 $true$
+    101 $true$
+    102 $true$
+    102 $true$
+    102 $true$
+    102 $true$
+    102 $false$
+    102 $true$
+    102 $true$
+    102 $true$
+    102 $true$
+    102 $true$
+    103 $true$
+    103 $true$
+    103 $true$
+    103 $true$
+    103 $false$
+    103 $true$
+    103 $true$
+    103 $true$
+    103 $true$
+    103 $true$
+    104 $true$
+    104 $true$
+    104 $true$
+    104 $true$
+    104 $false$
+    104 $true$
+    104 $true$
+    104 $true$
+    104 $true$
+    104 $true$
+    105 $true$
+    105 $true$
+    105 $true$
+    105 $true$
+    105 $false$
+    105 $true$
+    105 $true$
+    105 $true$
+    105 $true$
+    105 $true$
+    106 $true$
+    106 $true$
+    106 $true$
+    106 $true$
+    106 $false$
+    106 $true$
+    106 $true$
+    106 $true$
+    106 $true$
+    106 $true$
+    107 $true$
+    107 $true$
+    107 $true$
+    107 $true$
+    107 $false$
+    107 $true$
+    107 $true$
+    107 $true$
+    107 $true$
+    107 $true$
+    108 $true$
+    108 $true$
+    108 $true$
+    108 $true$
+    108 $false$
+    108 $true$
+    108 $true$
+    108 $true$
+    108 $true$
+    108 $true$
+    109 $true$
+    109 $true$
+    109 $true$
+    109 $true$
+    109 $false$
+    109 $true$
+    109 $true$
+    109 $true$
+    109 $true$
+    109 $true$
+    110 $true$
+    110 $true$
+    110 $true$
+    110 $true$
+    110 $false$
+    110 $true$
+    110 $true$
+    110 $true$
+    110 $true$
+    110 $true$
+    111 $true$
+    111 $true$
+    111 $true$
+    111 $true$
+    111 $false$
+    111 $true$
+    111 $true$
+    111 $true$
+    111 $true$
+    111 $true$
+    112 $true$
+    112 $true$
+    112 $true$
+    112 $true$
+    112 $false$
+    112 $true$
+    112 $true$
+    112 $true$
+    112 $true$
+    112 $true$
+    113 $true$
+    113 $true$
+    113 $true$
+    113 $true$
+    113 $false$
+    113 $true$
+    113 $true$
+    113 $true$
+    113 $true$
+    113 $true$
+    114 $true$
+    114 $true$
+    114 $true$
+    114 $true$
+    114 $false$
+    114 $true$
+    114 $true$
+    114 $true$
+    114 $true$
+    114 $true$
+    115 $true$
+    115 $true$
+    115 $true$
+    115 $true$
+    115 $false$
+    115 $true$
+    115 $true$
+    115 $true$
+    115 $true$
+    115 $true$
+    116 $true$
+    116 $true$
+    116 $true$
+    116 $true$
+    116 $false$
+    116 $true$
+    116 $true$
+    116 $true$
+    116 $true$
+    116 $true$
+    117 $true$
+    117 $true$
+    117 $true$
+    117 $true$
+    117 $false$
+    117 $true$
+    117 $true$
+    117 $true$
+    117 $true$
+    117 $true$
+    118 $true$
+    118 $true$
+    118 $true$
+    118 $true$
+    118 $false$
+    118 $true$
+    118 $true$
+    118 $true$
+    118 $true$
+    118 $true$
+    119 $true$
+    119 $true$
+    119 $true$
+    119 $true$
+    119 $false$
+    119 $true$
+    119 $true$
+    119 $true$
+    119 $true$
+    119 $true$
+cross(l3, l1)
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $false$ 34
+    $false$ $false$
+    $false$ $true$
+    $false$ 101
+    $false$ 102
+    $false$ 103
+    $false$ 104
+    $false$ 105
+    $false$ 106
+    $false$ 107
+    $false$ 108
+    $false$ 109
+    $false$ 110
+    $false$ 111
+    $false$ 112
+    $false$ 113
+    $false$ 114
+    $false$ 115
+    $false$ 116
+    $false$ 117
+    $false$ 118
+    $false$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+cross(l1, l1)
+    34 34
+    34 $false$
+    34 $true$
+    34 101
+    34 102
+    34 103
+    34 104
+    34 105
+    34 106
+    34 107
+    34 108
+    34 109
+    34 110
+    34 111
+    34 112
+    34 113
+    34 114
+    34 115
+    34 116
+    34 117
+    34 118
+    34 119
+    $false$ 34
+    $false$ $false$
+    $false$ $true$
+    $false$ 101
+    $false$ 102
+    $false$ 103
+    $false$ 104
+    $false$ 105
+    $false$ 106
+    $false$ 107
+    $false$ 108
+    $false$ 109
+    $false$ 110
+    $false$ 111
+    $false$ 112
+    $false$ 113
+    $false$ 114
+    $false$ 115
+    $false$ 116
+    $false$ 117
+    $false$ 118
+    $false$ 119
+    $true$ 34
+    $true$ $false$
+    $true$ $true$
+    $true$ 101
+    $true$ 102
+    $true$ 103
+    $true$ 104
+    $true$ 105
+    $true$ 106
+    $true$ 107
+    $true$ 108
+    $true$ 109
+    $true$ 110
+    $true$ 111
+    $true$ 112
+    $true$ 113
+    $true$ 114
+    $true$ 115
+    $true$ 116
+    $true$ 117
+    $true$ 118
+    $true$ 119
+    101 34
+    101 $false$
+    101 $true$
+    101 101
+    101 102
+    101 103
+    101 104
+    101 105
+    101 106
+    101 107
+    101 108
+    101 109
+    101 110
+    101 111
+    101 112
+    101 113
+    101 114
+    101 115
+    101 116
+    101 117
+    101 118
+    101 119
+    102 34
+    102 $false$
+    102 $true$
+    102 101
+    102 102
+    102 103
+    102 104
+    102 105
+    102 106
+    102 107
+    102 108
+    102 109
+    102 110
+    102 111
+    102 112
+    102 113
+    102 114
+    102 115
+    102 116
+    102 117
+    102 118
+    102 119
+    103 34
+    103 $false$
+    103 $true$
+    103 101
+    103 102
+    103 103
+    103 104
+    103 105
+    103 106
+    103 107
+    103 108
+    103 109
+    103 110
+    103 111
+    103 112
+    103 113
+    103 114
+    103 115
+    103 116
+    103 117
+    103 118
+    103 119
+    104 34
+    104 $false$
+    104 $true$
+    104 101
+    104 102
+    104 103
+    104 104
+    104 105
+    104 106
+    104 107
+    104 108
+    104 109
+    104 110
+    104 111
+    104 112
+    104 113
+    104 114
+    104 115
+    104 116
+    104 117
+    104 118
+    104 119
+    105 34
+    105 $false$
+    105 $true$
+    105 101
+    105 102
+    105 103
+    105 104
+    105 105
+    105 106
+    105 107
+    105 108
+    105 109
+    105 110
+    105 111
+    105 112
+    105 113
+    105 114
+    105 115
+    105 116
+    105 117
+    105 118
+    105 119
+    106 34
+    106 $false$
+    106 $true$
+    106 101
+    106 102
+    106 103
+    106 104
+    106 105
+    106 106
+    106 107
+    106 108
+    106 109
+    106 110
+    106 111
+    106 112
+    106 113
+    106 114
+    106 115
+    106 116
+    106 117
+    106 118
+    106 119
+    107 34
+    107 $false$
+    107 $true$
+    107 101
+    107 102
+    107 103
+    107 104
+    107 105
+    107 106
+    107 107
+    107 108
+    107 109
+    107 110
+    107 111
+    107 112
+    107 113
+    107 114
+    107 115
+    107 116
+    107 117
+    107 118
+    107 119
+    108 34
+    108 $false$
+    108 $true$
+    108 101
+    108 102
+    108 103
+    108 104
+    108 105
+    108 106
+    108 107
+    108 108
+    108 109
+    108 110
+    108 111
+    108 112
+    108 113
+    108 114
+    108 115
+    108 116
+    108 117
+    108 118
+    108 119
+    109 34
+    109 $false$
+    109 $true$
+    109 101
+    109 102
+    109 103
+    109 104
+    109 105
+    109 106
+    109 107
+    109 108
+    109 109
+    109 110
+    109 111
+    109 112
+    109 113
+    109 114
+    109 115
+    109 116
+    109 117
+    109 118
+    109 119
+    110 34
+    110 $false$
+    110 $true$
+    110 101
+    110 102
+    110 103
+    110 104
+    110 105
+    110 106
+    110 107
+    110 108
+    110 109
+    110 110
+    110 111
+    110 112
+    110 113
+    110 114
+    110 115
+    110 116
+    110 117
+    110 118
+    110 119
+    111 34
+    111 $false$
+    111 $true$
+    111 101
+    111 102
+    111 103
+    111 104
+    111 105
+    111 106
+    111 107
+    111 108
+    111 109
+    111 110
+    111 111
+    111 112
+    111 113
+    111 114
+    111 115
+    111 116
+    111 117
+    111 118
+    111 119
+    112 34
+    112 $false$
+    112 $true$
+    112 101
+    112 102
+    112 103
+    112 104
+    112 105
+    112 106
+    112 107
+    112 108
+    112 109
+    112 110
+    112 111
+    112 112
+    112 113
+    112 114
+    112 115
+    112 116
+    112 117
+    112 118
+    112 119
+    113 34
+    113 $false$
+    113 $true$
+    113 101
+    113 102
+    113 103
+    113 104
+    113 105
+    113 106
+    113 107
+    113 108
+    113 109
+    113 110
+    113 111
+    113 112
+    113 113
+    113 114
+    113 115
+    113 116
+    113 117
+    113 118
+    113 119
+    114 34
+    114 $false$
+    114 $true$
+    114 101
+    114 102
+    114 103
+    114 104
+    114 105
+    114 106
+    114 107
+    114 108
+    114 109
+    114 110
+    114 111
+    114 112
+    114 113
+    114 114
+    114 115
+    114 116
+    114 117
+    114 118
+    114 119
+    115 34
+    115 $false$
+    115 $true$
+    115 101
+    115 102
+    115 103
+    115 104
+    115 105
+    115 106
+    115 107
+    115 108
+    115 109
+    115 110
+    115 111
+    115 112
+    115 113
+    115 114
+    115 115
+    115 116
+    115 117
+    115 118
+    115 119
+    116 34
+    116 $false$
+    116 $true$
+    116 101
+    116 102
+    116 103
+    116 104
+    116 105
+    116 106
+    116 107
+    116 108
+    116 109
+    116 110
+    116 111
+    116 112
+    116 113
+    116 114
+    116 115
+    116 116
+    116 117
+    116 118
+    116 119
+    117 34
+    117 $false$
+    117 $true$
+    117 101
+    117 102
+    117 103
+    117 104
+    117 105
+    117 106
+    117 107
+    117 108
+    117 109
+    117 110
+    117 111
+    117 112
+    117 113
+    117 114
+    117 115
+    117 116
+    117 117
+    117 118
+    117 119
+    118 34
+    118 $false$
+    118 $true$
+    118 101
+    118 102
+    118 103
+    118 104
+    118 105
+    118 106
+    118 107
+    118 108
+    118 109
+    118 110
+    118 111
+    118 112
+    118 113
+    118 114
+    118 115
+    118 116
+    118 117
+    118 118
+    118 119
+    119 34
+    119 $false$
+    119 $true$
+    119 101
+    119 102
+    119 103
+    119 104
+    119 105
+    119 106
+    119 107
+    119 108
+    119 109
+    119 110
+    119 111
+    119 112
+    119 113
+    119 114
+    119 115
+    119 116
+    119 117
+    119 118
+    119 119
+cross(l3, l3)
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $false$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $false$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $false$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+    $true$ $true$
+noSideEffects(new EList())
+myprint(l)
+
+l.size():0:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+noSideEffects(l1)
+myprint(l)
+34!$false$!$true$!101!102!103!104!105!106!107!108!109!110!111!112!113!114!115!116!117!118!119!
+l.size():22:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():34:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():$false$:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():$true$:
+noSideEffects(l2)
+myprint(l)
+abcdefghijklmnopqrstuvwx!abc!
+l.size():2:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():abcdefghijklmnopqrstuvwx:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():abc:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+t.hasNext():false:
+noSideEffects(l3)
+myprint(l)
+$true$!$true$!$true$!$true$!$false$!$true$!$true$!$true$!$true$!$true$!
+l.size():10:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():$true$:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():$true$:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.hasNext():true:
+t.next():$true$:
+test of calling EListIt too many times
+ei.next():61:
+ei.next():63:
+ei.next():62:
+= caught UsingIteratorPastEndException from EListIt
+EListUser.size1(new EList()):0:
+EListUser.size1(l1):22:
+EListUser.size1(l2):2:
+EListUser.size1(l3):10:
+EListUser.size2(new EList()):0:
+EListUser.size2(l1):22:
+EListUser.size2(l2):2:
+EListUser.size2(l3):10:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k0):true:
+EListUser.isBalanced(k0):false:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k1):true:
+EListUser.isBalanced(k1):false:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):false:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):false:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):false:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(k2):true:
+EListUser.isBalanced(l1):false:
+EListUser.isBalanced(l2):true:
+EListUser.isBalanced(l3):true:
+myprintS(a1) /*unsorted*/
+Hi
+Mom
+Dad
+myprintS(a1) /*sorted*/
+Dad
+Hi
+Mom
+myprintB(c1) /*unsorted*/
+$true$
+$false$
+$true$
+myprintB(c1) /*sorted*/
+$false$
+$true$
+$true$
+myprintI(d1) /*unsorted*/
+3
+0
+99
+myprintI(d1) /*sorted*/
+0
+3
+99
+myprintI(g1) /*unsorted*/
+3
+-53
+0
+99
+-8
+myprintI(g1) /*sorted reverse*/
+99
+3
+0
+-8
+-53
+myprintE(h1) /*unsorted*/
+zebra
+3
+-53
+hello
+0
+$false$
+there
+99
+$true$
+-8
+$false$
+myprintE(h1) /*sorted*/
+$false$
+$false$
+$true$
+-53
+-8
+0
+3
+99
+hello
+there
+zebra
+created 196 Element
+created 17 EBoolean
+created 76 EInteger
+created 103 EString

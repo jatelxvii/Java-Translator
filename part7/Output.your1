@@ -1,0 +1,9 @@
+created 9 Element
+created 2 EBoolean
+created 3 EInteger
+created 4 EString
+test of calling EListIt too many times
+ei.next():61:
+ei.next():63:
+ei.next():62:
+EListIt called past end
